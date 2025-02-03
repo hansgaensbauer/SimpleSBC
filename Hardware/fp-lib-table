@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SimpleSBC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SimpleSBC.pretty")(options "")(descr ""))
+)
