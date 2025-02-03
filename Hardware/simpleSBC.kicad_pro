@@ -746,6 +746,14 @@
     [
       "78ab8a62-95bb-407d-9a77-e3716c9faf5c",
       "Root"
+    ],
+    [
+      "64c924ff-1ee2-4076-8d5b-d4197d44b396",
+      "Power"
+    ],
+    [
+      "0ebcb9b5-ba75-4a3b-8fcf-8a6560cc04e8",
+      "Memory"
     ]
   ],
   "text_variables": {}
