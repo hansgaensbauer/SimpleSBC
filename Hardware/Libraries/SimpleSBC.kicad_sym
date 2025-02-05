@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm"
-			(at -0.635 -0.635 0)
+			(at 0 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf?rev=305217e2f9bd4ef48d7c6f353dfc064c"
-			(at -0.635 -0.635 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/MT41K1G4_MT41K512M8_MT41K256M16_RevR_Sep2018.pdf"
+			(at 0 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +74,7 @@
 			)
 		)
 		(symbol "MT41K256M16TW_1_1"
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -146,7 +146,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -164,7 +164,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -200,7 +200,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -272,7 +272,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -290,7 +290,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -380,7 +380,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -416,7 +416,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -470,7 +470,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -488,7 +488,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -524,7 +524,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -578,7 +578,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -596,7 +596,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -704,7 +704,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -722,7 +722,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -776,7 +776,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -794,7 +794,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -812,7 +812,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 -101.6 0)
 				(length 0) hide
 				(name "VSSQ"
@@ -848,7 +848,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -920,7 +920,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -2.54 -3.81 180)
 				(length 0) hide
 				(name "VDDQ"
@@ -956,7 +956,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1010,7 +1010,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1064,7 +1064,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -1118,7 +1118,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -1262,7 +1262,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1352,7 +1352,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1460,7 +1460,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -1478,7 +1478,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1568,7 +1568,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1586,7 +1586,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -1676,7 +1676,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at -5.08 -3.81 180)
 				(length 0) hide
 				(name "VDD"
@@ -1694,7 +1694,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -1784,7 +1784,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -101.6 0)
 				(length 0) hide
 				(name "VSS"
@@ -3758,7 +3758,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -3812,7 +3812,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -3866,7 +3866,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -3884,8 +3884,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -16.51 -11.43 0)
+			(pin passive line
+				(at -16.51 -11.43 90)
 				(length 0) hide
 				(name "VDDQ_DDR"
 					(effects
@@ -3902,7 +3902,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -3920,7 +3920,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -3938,7 +3938,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -3956,7 +3956,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -3974,7 +3974,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4010,7 +4010,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4028,7 +4028,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4046,7 +4046,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4064,7 +4064,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4082,7 +4082,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4100,7 +4100,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4118,8 +4118,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -16.51 -11.43 0)
+			(pin passive line
+				(at -16.51 -11.43 90)
 				(length 0) hide
 				(name "VDDQ_DDR"
 					(effects
@@ -4136,7 +4136,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -1.27 90)
 				(length 0) hide
 				(name "VDD"
@@ -4154,7 +4154,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4172,7 +4172,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4190,7 +4190,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4208,7 +4208,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4226,7 +4226,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4244,7 +4244,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4262,7 +4262,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -26.67 270)
 				(length 0) hide
 				(name "VDDA"
@@ -4298,7 +4298,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -1.27 90)
 				(length 0) hide
 				(name "VDD"
@@ -4316,7 +4316,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4334,7 +4334,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4352,7 +4352,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4370,7 +4370,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4388,8 +4388,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -16.51 -11.43 0)
+			(pin passive line
+				(at -16.51 -11.43 90)
 				(length 0) hide
 				(name "VDDQ_DDR"
 					(effects
@@ -4424,7 +4424,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4442,7 +4442,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -1.27 90)
 				(length 0) hide
 				(name "VDD"
@@ -4478,7 +4478,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4496,7 +4496,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4514,7 +4514,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4532,7 +4532,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -6.35 90)
 				(length 0) hide
 				(name "VDDCORE"
@@ -4550,7 +4550,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4568,7 +4568,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4586,7 +4586,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4622,7 +4622,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4658,7 +4658,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4694,7 +4694,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 -1.27 90)
 				(length 0) hide
 				(name "VDD"
@@ -4712,7 +4712,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4748,7 +4748,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4784,7 +4784,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4802,7 +4802,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4838,7 +4838,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4856,7 +4856,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4874,7 +4874,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4892,7 +4892,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4910,7 +4910,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4928,7 +4928,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4946,7 +4946,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -4964,7 +4964,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5000,7 +5000,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5018,7 +5018,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5036,7 +5036,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5072,7 +5072,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5108,7 +5108,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5126,7 +5126,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5144,7 +5144,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -5162,7 +5162,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -38.1 180)
 				(length 0) hide
 				(name "VSS"
@@ -9504,7 +9504,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 16.51 -46.99 180)
 				(length 2.54)
 				(name "VREFDDR"
@@ -9882,7 +9882,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 16.51 -36.83 180)
 				(length 2.54)
 				(name "VBUSOTG"
@@ -9936,7 +9936,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 16.51 -41.91 180)
 				(length 2.54)
 				(name "SWOUT"
@@ -10098,7 +10098,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 16.51 -3.81 180)
 				(length 2.54)
 				(name "VOUT1"
@@ -10170,7 +10170,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 16.51 -11.43 180)
 				(length 2.54)
 				(name "VOUT2"
@@ -10181,6 +10181,246 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VREF_DDR"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR067"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF_DDR"
+			(at 0 3.6045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VREF_DDR_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VREF_DDR_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "VREF_DDR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VTT_DDR"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR068"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VTT_DDR"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VTT_DDR_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VTT_DDR_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "VTT_DDR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
