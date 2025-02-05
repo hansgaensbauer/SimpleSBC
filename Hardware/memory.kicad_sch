@@ -7,7 +7,7 @@
 	(title_block
 		(title "SimpleSBC Memory")
 		(rev "2")
-		(comment 1 "Designed by Hans Gaensbauer")
+		(comment 1 "Hans Gaensbauer and Tim Shepard")
 	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det"
