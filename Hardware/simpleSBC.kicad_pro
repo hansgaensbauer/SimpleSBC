@@ -64,7 +64,24 @@
           "width": 0.089
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|114660000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|bb6c7259-cfde-428b-bfb0-7a9b326dd912",
+          ""
+        ],
+        [
+          "silk_edge_clearance|127980000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|563fc61f-7f5c-40f7-8bdc-6718faf7760c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|134160000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|dc6058ea-e030-4f9b-949d-30d8e14956f2",
+          ""
+        ],
+        [
+          "silk_edge_clearance|147480000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|99b743a3-f11c-4c1f-b95a-84efbc241876",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -147,7 +164,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.089,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -257,7 +274,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2133600|850900|f8f57152-e45f-41b7-8350-f9d5e9e26dff|7a67c4ec-83c2-43dd-a024-17a6f45af12e|/78ab8a62-95bb-407d-9a77-e3716c9faf5c|/78ab8a62-95bb-407d-9a77-e3716c9faf5c|/78ab8a62-95bb-407d-9a77-e3716c9faf5c/64c924ff-1ee2-4076-8d5b-d4197d44b396",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -490,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1016,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,7 +530,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
