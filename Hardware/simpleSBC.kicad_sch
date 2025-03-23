@@ -12484,6 +12484,10 @@
 		(uuid "1bddbc2c-61fc-46ff-bfe5-6242c17bca83")
 	)
 	(no_connect
+		(at 245.11 121.92)
+		(uuid "1ced0253-1dbf-4765-ae08-cb19881eb51c")
+	)
+	(no_connect
 		(at 29.21 182.88)
 		(uuid "1d23fb5d-f2a3-4f5a-a385-cf4d48c85cb5")
 	)
@@ -14674,16 +14678,6 @@
 			(type default)
 		)
 		(uuid "8a9fffbc-7381-48f1-9441-69bfecc6afe4")
-	)
-	(wire
-		(pts
-			(xy 245.11 121.92) (xy 247.65 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b68b607-17a9-4778-8361-17d82666c5e9")
 	)
 	(wire
 		(pts
@@ -17534,16 +17528,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1912c3a-e643-41d9-92f7-e2808806fca5")
-	)
-	(label "PG10"
-		(at 247.65 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a25441fb-23b6-4e8f-bd79-f0ac9540fbc5")
 	)
 	(label "PC2"
 		(at 299.72 115.57 0)
