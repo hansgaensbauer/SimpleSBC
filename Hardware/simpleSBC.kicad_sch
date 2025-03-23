@@ -12624,10 +12624,6 @@
 		(uuid "eeb2d1d6-9b20-4934-9c4a-c6b7e87f8cfa")
 	)
 	(no_connect
-		(at 213.36 34.29)
-		(uuid "effd251d-e285-459f-a242-c1e71add552b")
-	)
-	(no_connect
 		(at 245.11 46.99)
 		(uuid "f87bdb5f-3cee-4fd7-882c-6cd96b3ad52d")
 	)
@@ -14478,6 +14474,16 @@
 			(type default)
 		)
 		(uuid "7ff2bef6-8837-49b3-989f-e7b6bd880f66")
+	)
+	(wire
+		(pts
+			(xy 210.82 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807fa764-7f94-4756-b2f0-32d5b562c079")
 	)
 	(wire
 		(pts
@@ -16569,7 +16575,7 @@
 		)
 		(uuid "0af47ecd-7087-4b57-846d-ebb56e9bdca9")
 	)
-	(label "PG10"
+	(label "PA4"
 		(at 281.94 118.11 180)
 		(effects
 			(font
@@ -17148,6 +17154,16 @@
 			(justify right bottom)
 		)
 		(uuid "61e0b301-2b34-4771-8490-f0f61e841c83")
+	)
+	(label "PA4"
+		(at 210.82 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64146211-77fb-4a9c-ba47-4d39310f2d04")
 	)
 	(label "VBUS1"
 		(at 168.91 40.64 0)

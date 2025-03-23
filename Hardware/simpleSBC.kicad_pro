@@ -554,207 +554,63 @@
     "netclass_patterns": [
       {
         "netclass": "DRAM",
-        "pattern": "/A0"
+        "pattern": "/Memory/LDM"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A1"
+        "pattern": "/Memory/LDQS+"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A10"
+        "pattern": "/Memory/LDQS-"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A11"
+        "pattern": "/Memory/NRST"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A12"
+        "pattern": "/Memory/ODT"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A13"
+        "pattern": "/Memory/UDM"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A14"
+        "pattern": "/Memory/UDQS+"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A2"
+        "pattern": "/Memory/UDQS-"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A3"
+        "pattern": "/Memory/~{CAS}"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A4"
+        "pattern": "/Memory/~{CS}"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A5"
+        "pattern": "/Memory/~{RAS}"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A6"
+        "pattern": "/Memory/~{RESET}"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A7"
+        "pattern": "/Memory/~{WE}"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A8"
+        "pattern": "/Memory/A*"
       },
       {
         "netclass": "DRAM",
-        "pattern": "/A9"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/BA0"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/BA1"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/BA2"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/CKE"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DDR_CK+"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DDR_CK-"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ0"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ1"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ10"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ11"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ12"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ13"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ14"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ15"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ2"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ3"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ4"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ5"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ6"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ7"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ8"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/DQ9"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/JTDI"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/LDM"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/LDQS+"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/LDQS-"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/NRST"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/ODT"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/UDM"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/UDQS+"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/UDQS-"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/~{CAS}"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/~{CS}"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/~{RAS}"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/~{RESET}"
-      },
-      {
-        "netclass": "DRAM",
-        "pattern": "/~{WE}"
+        "pattern": "/Memory/DQ*"
       }
     ]
   },
