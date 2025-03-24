@@ -22076,7 +22076,7 @@
 				)
 			)
 		)
-		(property "Value" "STPMIC1"
+		(property "Value" "STPMIC1A"
 			(at 74.295 62.23 0)
 			(effects
 				(font

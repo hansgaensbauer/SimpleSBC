@@ -274,7 +274,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2133600|850900|f8f57152-e45f-41b7-8350-f9d5e9e26dff|7a67c4ec-83c2-43dd-a024-17a6f45af12e|/78ab8a62-95bb-407d-9a77-e3716c9faf5c|/78ab8a62-95bb-407d-9a77-e3716c9faf5c|/78ab8a62-95bb-407d-9a77-e3716c9faf5c/64c924ff-1ee2-4076-8d5b-d4197d44b396",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -614,7 +619,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "cam/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
