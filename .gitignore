@@ -33,5 +33,5 @@ fp-info-cache
 
 
 Hardware/simpleSBC-backups/
-
 *.kicad_prl
+Hardware/cam/
