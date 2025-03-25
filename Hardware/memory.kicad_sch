@@ -12745,6 +12745,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 59.69 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0fb9171-697a-47e1-9126-3b8fbea82695")
 		)
@@ -12879,6 +12888,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0410463e-0b87-46fd-9ee5-3be3151684c5")
 		)
@@ -12938,6 +12956,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -13080,6 +13107,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4511193-0697-43fd-b484-d5983ed1c04d")
 		)
@@ -13139,6 +13175,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -13209,6 +13254,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 46.99 167.64 0)
 			(effects
 				(font
@@ -13415,6 +13469,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d1b9a82-92f0-4c0e-bf8b-87398c094110")
 		)
@@ -13477,6 +13540,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 67.31 167.64 0)
 			(effects
 				(font
@@ -13621,6 +13693,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c294f5e8-baa2-49de-97d4-9f664a45cbe1")
 		)
@@ -13691,6 +13772,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C208835"
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0ea2abd-c6e6-4cf5-91ca-0697ac6a169e")
 		)
@@ -13750,6 +13840,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 80.01 0)
 			(effects
 				(font
@@ -13827,6 +13926,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C45783"
+			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4a39158-3c49-4644-9ff9-fe7592c0cb2d")
 		)
@@ -13886,6 +13994,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 199.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25792"
 			(at 199.39 69.85 0)
 			(effects
 				(font
@@ -13956,6 +14073,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C208835"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -14089,6 +14215,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -14295,6 +14430,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e55f4341-59d7-407a-9a42-09b0527f73c2")
 		)
@@ -14365,6 +14509,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a2132c3-bf61-43dd-ac16-f6120e4b91eb")
 		)
@@ -14425,6 +14578,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -14632,6 +14794,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b00fb752-cf62-4109-8b46-852e8979eb34")
 		)
@@ -14699,6 +14870,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0778b62d-6734-4a0d-8786-81cc75edbf23")
 		)
@@ -14758,6 +14938,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 69.85 0)
 			(effects
 				(font
@@ -14899,6 +15088,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fda52030-5aed-4e2f-a8d3-6c25d213d02a")
 		)
@@ -14961,6 +15159,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -15102,6 +15309,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25792"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6ea805d-4069-4ec3-a3cc-fe37181f3ac6")
 		)
@@ -15164,6 +15380,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 62.23 167.64 0)
 			(effects
 				(font
@@ -15240,6 +15465,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25076"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3711333b-e804-441c-96f0-38b4ec248ee2")
 		)
@@ -15299,6 +15533,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 146.05 29.21 0)
 			(effects
 				(font
@@ -15376,6 +15619,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7be51f13-1516-4e45-9186-44465f746778")
 		)
@@ -15399,7 +15651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "826ced7d-54a6-4917-90a3-ff64fe8abf1a")
 		(property "Reference" "J2"
 			(at 205.105 85.09 0)
@@ -15436,6 +15688,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -15541,6 +15802,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4586371-7e84-4084-86a2-689cb216df97")
 		)
@@ -15600,6 +15870,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -15670,6 +15949,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C253882"
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -16027,6 +16315,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd4f8479-fd62-4f02-b8bf-1736f85544a8")
 		)
@@ -16226,6 +16523,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54850c0b-8ced-4645-b2b3-f0c30c04a343")
 		)
@@ -16285,6 +16591,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25792"
 			(at 199.39 74.93 0)
 			(effects
 				(font
@@ -16363,6 +16678,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a74af7b2-7691-42b0-9a9c-5022201b36dd")
 		)
@@ -16424,6 +16748,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C45783"
 			(at 86.36 167.64 0)
 			(effects
 				(font
@@ -16499,6 +16832,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a120d54-fca9-4544-92c5-982d2f3ad8ec")
 		)
@@ -16558,6 +16900,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -16633,6 +16984,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25792"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07fab1de-6cd4-45ec-bc4d-512c418b4b83")
 		)
@@ -16692,6 +17052,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -16762,6 +17131,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 49.53 170.18 0)
 			(effects
 				(font
@@ -16968,6 +17346,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25792"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab7d07bb-d329-43b4-b3d5-f4e833165983")
 		)
@@ -17029,6 +17416,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 29.21 124.46 0)
 			(effects
 				(font
@@ -17099,6 +17495,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 72.39 167.64 0)
 			(effects
 				(font
@@ -17240,6 +17645,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f969a55b-e715-499a-a21d-b7834c719bc4")
 		)
@@ -17299,6 +17713,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -17374,6 +17797,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d488948a-4131-46d4-8265-72a6d970994b")
 		)
@@ -17416,7 +17848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 106.68 0)
 			(effects
 				(font
@@ -17435,6 +17867,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23733"
 			(at 247.65 106.68 0)
 			(effects
 				(font
@@ -17575,6 +18016,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25127"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2696c73-f283-4d56-80d0-cfc79ce82775")
 		)
@@ -17634,6 +18084,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
 			(at 199.39 80.01 0)
 			(effects
 				(font
@@ -17704,6 +18163,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 52.07 167.64 0)
 			(effects
 				(font
@@ -17848,6 +18316,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 69.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "969ce6d7-d01f-48ce-9f85-3e79c3de2316")
 		)
@@ -17908,6 +18385,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1236719"
 			(at 59.69 53.34 0)
 			(effects
 				(font
@@ -18751,6 +19237,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 74.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "084b7d75-2e28-4732-9277-f9d772c84116")
 		)
@@ -18810,6 +19305,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25127"
 			(at 142.24 77.47 0)
 			(effects
 				(font
