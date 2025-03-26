@@ -66,19 +66,19 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|114660000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|bb6c7259-cfde-428b-bfb0-7a9b326dd912",
+          "silk_edge_clearance|114660000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|af50af37-e277-46fe-86b5-6bdb6a1cb51f",
           ""
         ],
         [
-          "silk_edge_clearance|127980000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|563fc61f-7f5c-40f7-8bdc-6718faf7760c",
+          "silk_edge_clearance|127980000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|19e3f3a4-974e-464f-b052-24897717d669",
           ""
         ],
         [
-          "silk_edge_clearance|134160000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|dc6058ea-e030-4f9b-949d-30d8e14956f2",
+          "silk_edge_clearance|134160000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|77efbb7e-f710-458a-aa78-baba85754fb2",
           ""
         ],
         [
-          "silk_edge_clearance|147480000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|99b743a3-f11c-4c1f-b95a-84efbc241876",
+          "silk_edge_clearance|147480000|59500000|3c749a8a-f1e6-4bd5-a3a0-6006319c87c4|50b334fd-ce4f-435b-94d4-3c8b84351c9b",
           ""
         ]
       ],
@@ -620,7 +620,7 @@
       "idf": "",
       "netlist": "",
       "plot": "cam/",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

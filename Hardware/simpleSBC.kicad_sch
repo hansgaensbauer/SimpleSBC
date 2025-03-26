@@ -13058,6 +13058,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfaed60-7e96-48db-b2f0-92a1c40b72a9")
+	)
+	(wire
+		(pts
 			(xy 146.05 22.86) (xy 148.59 22.86)
 		)
 		(stroke
@@ -13858,6 +13868,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 66.04) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a471df5-7381-4d6c-9fca-ee501a590c52")
+	)
+	(wire
+		(pts
 			(xy 176.53 43.18) (xy 176.53 39.37)
 		)
 		(stroke
@@ -14098,6 +14118,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 66.04) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf4973b-30d3-4dca-895c-e987f2f49000")
+	)
+	(wire
+		(pts
 			(xy 257.81 142.24) (xy 261.62 142.24)
 		)
 		(stroke
@@ -14185,6 +14215,16 @@
 			(type default)
 		)
 		(uuid "506e210c-862a-4c51-9636-d148016e37a5")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ab1f63-cddf-41a8-a327-07bbdb7a2fcf")
 	)
 	(wire
 		(pts
@@ -14535,16 +14575,6 @@
 			(type default)
 		)
 		(uuid "6de63a4d-93a4-4381-95c6-1c2489abf80c")
-	)
-	(wire
-		(pts
-			(xy 123.19 66.04) (xy 177.8 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df08c7a-be49-4084-ae00-ace488b7443f")
 	)
 	(wire
 		(pts
@@ -15585,16 +15615,6 @@
 			(type default)
 		)
 		(uuid "aadbd18f-71cd-46cc-b481-eb71315fbc96")
-	)
-	(wire
-		(pts
-			(xy 123.19 68.58) (xy 177.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac920a2f-c51f-4d8b-9e42-5e4b7799379a")
 	)
 	(wire
 		(pts
@@ -16688,6 +16708,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14cc2cb-9b61-4aaf-94a8-dcb639594d15")
+	)
+	(wire
+		(pts
 			(xy 58.42 67.31) (xy 58.42 74.93)
 		)
 		(stroke
@@ -16695,6 +16725,16 @@
 			(type default)
 		)
 		(uuid "f22640fa-d434-4ffb-9b0a-e1b4c9d832bd")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40ec243-ba32-44e6-bb73-83f816aa5c33")
 	)
 	(wire
 		(pts
@@ -19336,9 +19376,9 @@
 		(at 248.92 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "19bb8e42-981c-4aaf-a63e-6321114c3b6a")
 		(property "Reference" "JP2"
 			(at 251.968 52.832 0)
@@ -19357,7 +19397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "SimpleSBC:Jumper_0402_Short"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -20224,9 +20264,9 @@
 		(at 46.99 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "396afbb0-c1de-44ae-8599-1614e50396df")
 		(property "Reference" "JP1"
 			(at 44.196 97.79 0)
@@ -20245,7 +20285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "SimpleSBC:Jumper_0402_Short"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -20509,9 +20549,9 @@
 		(at 248.92 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4164ea55-1994-476c-b221-6f11eb571234")
 		(property "Reference" "JP3"
 			(at 252.222 58.928 0)
@@ -20530,7 +20570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "SimpleSBC:Jumper_0402_Short"
 			(at 248.92 57.15 0)
 			(effects
 				(font
