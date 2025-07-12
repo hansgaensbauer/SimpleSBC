@@ -39,12 +39,10 @@ Hardware/cam/
 *.pyc
 *.pyo
 /*.patch
-build*/
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
 sources/
-meta-*/
 !meta-skeleton
 !meta-hob
 hob-image-*.bb
@@ -52,10 +50,19 @@ hob-image-*.bb
 *.orig
 *.rej
 *~
-!meta-yocto
-!meta-yocto-bsp
-bitbake/doc/manual/html/
-bitbake/doc/manual/pdf/
-bitbake/doc/manual/txt/
-bitbake/doc/manual/xhtml/
+
+# Ignore everything in build folder...
+yocto/build-mp1/**
+# ...except keep the conf folder and its contents
+!yocto/build-mp1/conf/
+!yocto/build-mp1/conf/**
+# Also optionally keep hidden files in conf (like .template or .sample files)
+!yocto/build-mp1/conf/.*
+
+!yocto/meta-yocto
+!yocto/meta-yocto-bsp
+yocto/bitbake/doc/manual/html/
+yocto/bitbake/doc/manual/pdf/
+yocto/bitbake/doc/manual/txt/
+yocto/bitbake/doc/manual/xhtml/
 pull-*/
