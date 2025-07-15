@@ -1,6 +1,8 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+.vscode/**
+
 # Temporary files
 *.000
 *.bak
@@ -52,12 +54,13 @@ hob-image-*.bb
 *~
 
 # Ignore everything in build folder...
-yocto/build-mp1/**
+yocto/build-simplesbc/**
+yocto/build-dk2/**
 # ...except keep the conf folder and its contents
-!yocto/build-mp1/conf/
-!yocto/build-mp1/conf/**
+!yocto/build-simplesbc/conf/
+!yocto/build-simplesbc/conf/**
 # Also optionally keep hidden files in conf (like .template or .sample files)
-!yocto/build-mp1/conf/.*
+!yocto/build-simplesbc/conf/.*
 
 !yocto/meta-yocto
 !yocto/meta-yocto-bsp
