@@ -1,0 +1,12 @@
+diff --git a/Makefile.orig b/Makefile
+index 0fd5fee..e93a23f 100644
+--- a/arch/arm/dts/Makefile
++++ a/arch/arm/dts/Makefile
+@@ -1301,6 +1301,7 @@ dtb-$(CONFIG_STM32MP15X) += \
+ 	stm32mp157d-ed1.dtb \
+ 	stm32mp157d-ev1.dtb \
+ 	stm32mp157f-dk2.dtb \
++	stm32mp157-simplesbc.dtb \
+ 	stm32mp157f-ed1.dtb \
+ 	stm32mp157f-ev1.dtb \
+ 	stm32mp15xx-dhcom-drc02.dtb \
