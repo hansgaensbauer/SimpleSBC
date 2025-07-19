@@ -9,9 +9,9 @@
 #include "stm32mp157.dtsi"
 #include "stm32mp15xf.dtsi"
 #include "stm32mp15-pinctrl.dtsi"
-#include "stm32mp15xxac-pinctrl.dtsi"
+#include "stm32mp15xxad-pinctrl.dtsi"
 #include "stm32mp15xx-dkx.dtsi"
-#include "stm32mp157c-dk2-scmi.dtsi"
+#include "stm32mp157a-dk1-scmi.dtsi"
 #include <dt-bindings/rtc/rtc-stm32.h>
 
 / {
@@ -39,10 +39,6 @@
 		compatible = "mmc-pwrseq-simple";
 		reset-gpios = <&gpioh 4 GPIO_ACTIVE_LOW>;
 	};
-};
-
-&cryp1 {
-	status = "okay";
 };
 
 &ddrperfm {
