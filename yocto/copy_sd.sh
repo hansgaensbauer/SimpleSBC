@@ -4,7 +4,7 @@
 set -e
 
 SDCARD="/dev/sda"
-IMAGEPATH="build-simplesbc/tmp/deploy/images/stm32mp1"
+IMAGEPATH="build-simplesbc/tmp/deploy/images/simplesbc"
 
 echo "WARNING: This will erase ALL data on $SDCARD!"
 read -p "Type YES to continue: " confirm
@@ -124,13 +124,13 @@ EEOF
 # Let kernel detect new partitions
 sleep 2
 
-dd if=${IMAGEPATH}/arm-trusted-firmware/tf-a-stm32mp157f-dk2-optee-sdcard.stm32 of=${SDCARD}1
-dd if=${IMAGEPATH}/arm-trusted-firmware/tf-a-stm32mp157f-dk2-optee-sdcard.stm32 of=${SDCARD}2
+dd if=${IMAGEPATH}/arm-trusted-firmware/tf-a-stm32mp157-simplesbc-optee-sdcard.stm32 of=${SDCARD}1
+dd if=${IMAGEPATH}/arm-trusted-firmware/tf-a-stm32mp157-simplesbc-optee-sdcard.stm32 of=${SDCARD}2
 dd if=${IMAGEPATH}/arm-trusted-firmware/metadata.bin of=${SDCARD}3
 dd if=${IMAGEPATH}/arm-trusted-firmware/metadata.bin of=${SDCARD}4
-dd if=${IMAGEPATH}/fip/fip-stm32mp157f-dk2-optee-sdcard.bin of=${SDCARD}5
-dd if=${IMAGEPATH}/st-image-bootfs-poky-stm32mp1.bootfs.ext4 of=${SDCARD}6 bs=1M
-dd if=${IMAGEPATH}/custom-image-stm32mp1.rootfs.ext4 of=${SDCARD}7 bs=1M
+dd if=${IMAGEPATH}/fip/fip-stm32mp157-simplesbc-optee-sdcard.bin of=${SDCARD}5
+dd if=${IMAGEPATH}/st-image-bootfs-poky-simplesbc.bootfs.ext4 of=${SDCARD}6 bs=1M
+dd if=${IMAGEPATH}/custom-image-simplesbc.rootfs.ext4 of=${SDCARD}7 bs=1M
 
 sgdisk --partition-guid=3:8A7A84A0-8387-40F6-AB41-A8B9A5A60D23 ${SDCARD}
 sgdisk --partition-guid=4:8A7A84A0-8387-40F6-AB41-A8B9A5A60D23 ${SDCARD}

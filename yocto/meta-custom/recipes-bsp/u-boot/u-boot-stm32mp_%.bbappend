@@ -3,6 +3,7 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/u-boot-stm32mp:"
 SRC_URI += " \
     file://0003-remove-sdmmc1-cd.patch \
     file://0005-add-simplesbc-dtb-uboot.patch \
+    file://000n-uboot-patch-i2c.patch \
     file://stm32mp157-simplesbc.dts \
     file://stm32mp157-simplesbc-u-boot.dtsi \
 "
