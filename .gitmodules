@@ -1,0 +1,12 @@
+[submodule "yocto/poky"]
+	path = yocto/poky
+	url = git://git.yoctoproject.org/poky.git
+	branch = dunfell
+[submodule "yocto/meta-st-stm32mp"]
+	path = yocto/meta-st-stm32mp
+	url = https://github.com/STMicroelectronics/meta-st-stm32mp.git
+	branch = dunfell
+[submodule "yocto/meta-openembedded"]
+	path = yocto/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = dunfell

@@ -1,0 +1,12 @@
+diff --git a/Makefile.orig b/Makefile
+index f4426da..e3842b4 100644
+--- a/arch/arm/boot/dts/st/Makefile
++++ b/arch/arm/boot/dts/st/Makefile
+@@ -75,6 +75,7 @@ dtb-$(CONFIG_ARCH_STM32) += \
+ 	stm32mp157d-ev1-a7-examples.dtb \
+ 	stm32mp157d-ev1-m4-examples.dtb \
+ 	stm32mp157f-dk2.dtb \
++	stm32mp157-simplesbc.dtb \
+ 	stm32mp157f-dk2-a7-examples.dtb \
+ 	stm32mp157f-dk2-m4-examples.dtb \
+ 	stm32mp157f-ed1.dtb \

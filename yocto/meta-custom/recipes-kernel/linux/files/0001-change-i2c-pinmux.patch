@@ -1,0 +1,55 @@
+diff --git a/stm32mp15-pinctrl.dtsi.orig b/stm32mp15-pinctrl.dtsi
+index 534a03d..a46de9a 100644
+--- a/arch/arm/boot/dts/st/stm32mp15-pinctrl.dtsi
++++ b/arch/arm/boot/dts/st/stm32mp15-pinctrl.dtsi
+@@ -2813,38 +2813,38 @@
+ 			pinmux = <STM32_PINMUX('A', 10, ANALOG)>; /* OTG_ID */
+ 		};
+ 	};
+-};
+ 
+-&pinctrl_z {
+-	i2c2_pins_b2: i2c2-0 {
++    i2c4_pins_a: i2c4-0 {
+ 		pins {
+-			pinmux = <STM32_PINMUX('Z', 0, AF3)>; /* I2C2_SCL */
++			pinmux = <STM32_PINMUX('D', 12, AF4)>, /* I2C4_SCL */
++				 <STM32_PINMUX('D', 13, AF4)>; /* I2C4_SDA */
+ 			bias-disable;
+ 			drive-open-drain;
+ 			slew-rate = <0>;
+ 		};
+ 	};
+ 
+-	i2c2_sleep_pins_b2: i2c2-sleep-0 {
++	i2c4_sleep_pins_a: i2c4-sleep-0 {
+ 		pins {
+-			pinmux = <STM32_PINMUX('Z', 0, ANALOG)>; /* I2C2_SCL */
++			pinmux = <STM32_PINMUX('D', 12, ANALOG)>, /* I2C4_SCL */
++				 <STM32_PINMUX('D', 13, ANALOG)>; /* I2C4_SDA */
+ 		};
+ 	};
++};
+ 
+-	i2c4_pins_a: i2c4-0 {
++&pinctrl_z {
++	i2c2_pins_b2: i2c2-0 {
+ 		pins {
+-			pinmux = <STM32_PINMUX('Z', 4, AF6)>, /* I2C4_SCL */
+-				 <STM32_PINMUX('Z', 5, AF6)>; /* I2C4_SDA */
++			pinmux = <STM32_PINMUX('Z', 0, AF3)>; /* I2C2_SCL */
+ 			bias-disable;
+ 			drive-open-drain;
+ 			slew-rate = <0>;
+ 		};
+ 	};
+ 
+-	i2c4_sleep_pins_a: i2c4-sleep-0 {
++	i2c2_sleep_pins_b2: i2c2-sleep-0 {
+ 		pins {
+-			pinmux = <STM32_PINMUX('Z', 4, ANALOG)>, /* I2C4_SCL */
+-				 <STM32_PINMUX('Z', 5, ANALOG)>; /* I2C4_SDA */
++			pinmux = <STM32_PINMUX('Z', 0, ANALOG)>; /* I2C2_SCL */
+ 		};
+ 	};
+ 

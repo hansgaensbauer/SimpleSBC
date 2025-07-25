@@ -1,0 +1,32 @@
+diff --git a/conf.mk.orig b/conf.mk
+index 22c7a63..e91dcb8 100644
+--- a/core/arch/arm/plat-stm32mp1/conf.mk
++++ a/core/arch/arm/plat-stm32mp1/conf.mk
+@@ -13,6 +13,7 @@ flavor_dts_file-157D_EV1 = stm32mp157d-ev1.dts
+ flavor_dts_file-157F_DK2 = stm32mp157f-dk2.dts
+ flavor_dts_file-157F_ED1 = stm32mp157f-ed1.dts
+ flavor_dts_file-157F_EV1 = stm32mp157f-ev1.dts
++flavor_dts_file-157D_SIMPLESBC = stm32mp157-simplesbc.dts
+ 
+ flavor_dts_file-135F_DK = stm32mp135f-dk.dts
+ 
+@@ -21,7 +22,8 @@ flavorlist-cryp-512M = $(flavor_dts_file-157C_DK2) \
+ 		       $(flavor_dts_file-135F_DK)
+ 
+ flavorlist-no_cryp-512M = $(flavor_dts_file-157A_DK1) \
+-			  $(flavor_dts_file-157D_DK1)
++			  $(flavor_dts_file-157D_DK1) \
++			  $(flavor_dts_file-157D_SIMPLESBC)
+ 
+ flavorlist-cryp-1G = $(flavor_dts_file-157C_DHCOM_PDK2) \
+ 		     $(flavor_dts_file-157C_ED1) \
+@@ -57,7 +59,8 @@ flavorlist-MP15 = $(flavor_dts_file-157A_DHCOR_AVENGER96) \
+ 		  $(flavor_dts_file-157D_EV1) \
+ 		  $(flavor_dts_file-157F_DK2) \
+ 		  $(flavor_dts_file-157F_ED1) \
+-		  $(flavor_dts_file-157F_EV1)
++		  $(flavor_dts_file-157F_EV1) \
++		  $(flavor_dts_file-157D_SIMPLESBC)
+ 
+ flavorlist-MP13 = $(flavor_dts_file-135F_DK)
+ 
