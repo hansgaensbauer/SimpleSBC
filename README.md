@@ -15,7 +15,7 @@ A simple, open source SBC built around the STM32MP1
 4. Run `source poky/oe-init-build-env build-simplesbc` to set up the environment
 5. Run `bitbake custom-image` to build! This could take a while
 6. After the build, use yocto\copy_sd.sh to set up an SD card. You may need to change the device name in the script.
-7. Connect an ST-Link or other USB-Serial converter, and plu gin power.
+7. Connect an ST-Link or other USB-Serial converter, and plug in power.
 8. Enjoy linux! The default meta-custom layer includes python and some python libraries. 
 
 ## Related Projects
