@@ -156,7 +156,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -11373,7 +11372,7 @@
 			(at -3 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "db5c390b-077a-4e06-8a18-b30646753ee7")
+			(uuid "50955490-05df-44de-b423-88feb4406664")
 			(effects
 				(font
 					(size 1 1)
@@ -11384,7 +11383,7 @@
 		(property "Value" "RJ45_Wuerth_7499010121A"
 			(at 7 14.5 0)
 			(layer "F.Fab")
-			(uuid "9cd72d27-401f-4bf5-8139-c65d6b264dfe")
+			(uuid "1aa60556-0a0b-4c26-8f7a-fd0016462f9a")
 			(effects
 				(font
 					(size 1 1)
@@ -11397,7 +11396,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acc09175-d6d1-4c9e-bb6b-539d0ed5e00c")
+			(uuid "6410532f-2ec6-41e0-9a94-2dbdb270575f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11409,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00d13a0c-9172-4290-9b6d-a7eb49ef1477")
+			(uuid "7ce4695a-28a3-4d58-aae3-4df6ad7f1408")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11906,7 @@
 			(remove_unused_layers no)
 			(net 243 "unconnected-(J7-PadSH)_1")
 			(pintype "passive+no_connect")
-			(uuid "ba83f01d-27ba-4bb5-b17e-633891870ba1")
+			(uuid "788df9e3-e8ac-4b30-b36a-fea4eef60c4b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Wuerth_7499010121A_Horizontal.wrl"
@@ -16028,7 +16027,7 @@
 			(net 4 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "621ce064-9c5e-4a43-b712-e4e4591313e7")
+			(uuid "1b993e9d-1d39-4ce7-bcac-22b1066ae6d1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.wrl"
@@ -17016,7 +17015,7 @@
 			(net 4 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "63329783-17b7-42d9-93c1-96fd7f1ecbb6")
+			(uuid "192a9c02-ff40-468d-a8f2-a32d35025e25")
 		)
 		(pad "2" smd rect
 			(at -4 2.25)
@@ -17034,7 +17033,7 @@
 			(net 82 "/NRST")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "2ac0d528-94e2-4d2a-9e14-5111c6e0fdb8")
+			(uuid "ccad3bf6-397b-4caa-8de2-b950cd1abf25")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-101xP.wrl"
@@ -20051,7 +20050,7 @@
 			(net 4 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "695ebc18-e1ef-43d1-bae1-751d561663db")
+			(uuid "8bd7a620-2867-453d-aefc-6910aa5912bd")
 		)
 		(pad "11" smd rect
 			(at 3.73 5.375 180)
@@ -20060,7 +20059,7 @@
 			(net 4 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "695ebc18-e1ef-43d1-bae1-751d561663db")
+			(uuid "f190e3ee-c38d-40ec-b35e-26aadd2df6da")
 		)
 		(pad "11" smd rect
 			(at 5.755 -5.1 180)
@@ -20069,7 +20068,7 @@
 			(net 4 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "695ebc18-e1ef-43d1-bae1-751d561663db")
+			(uuid "42ef44d6-6005-490a-b5cc-cabf7fd83fb2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Molex_104031-0811.wrl"
@@ -21254,7 +21253,7 @@
 			(net 4 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "57848f22-986b-4555-a9e4-17c53da9f224")
+			(uuid "dea2f81a-c700-423d-ab0f-f7f45384d76b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.wrl"
@@ -29250,7 +29249,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "706ed88d-3ecc-4874-a3db-9828af153fc8")
 		)
 		(pad "25" thru_hole circle
 			(at -1 1 270)
@@ -29262,7 +29261,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "645f73e9-a326-4ffb-be6f-6486b005583f")
 		)
 		(pad "25" thru_hole circle
 			(at 0 -1 270)
@@ -29274,7 +29273,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "96e06a79-29cb-4d10-ae3c-cf5b50bb2bf6")
 		)
 		(pad "25" thru_hole circle
 			(at 0 0 270)
@@ -29286,7 +29285,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "627769a6-f67d-4ad0-8103-54b0591f6a18")
 		)
 		(pad "25" smd rect
 			(at 0 0 270)
@@ -29297,7 +29296,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "8a7ab177-bd41-42af-94cd-3ddc46ef2df4")
 		)
 		(pad "25" smd rect
 			(at 0 0 270)
@@ -29308,7 +29307,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "e736f868-8720-4dda-beda-8a6fd25807c1")
 		)
 		(pad "25" thru_hole circle
 			(at 0 1 270)
@@ -29320,7 +29319,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "7291a8f3-96f2-4737-8b50-7b70827598e3")
 		)
 		(pad "25" thru_hole circle
 			(at 1 -1 270)
@@ -29332,7 +29331,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "54ea0d1c-d221-4a4e-8244-135b660c44d2")
 		)
 		(pad "25" thru_hole circle
 			(at 1 0 270)
@@ -29344,7 +29343,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "63d94949-820f-4687-bd3e-05093489b948")
 		)
 		(pad "25" thru_hole circle
 			(at 1 1 270)
@@ -29356,7 +29355,7 @@
 			(net 4 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "53f500d4-2ff7-4ee7-ae3a-a3d4f84e9e25")
+			(uuid "cd2d03c0-8a82-4383-a764-6f2b8603d0c5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.wrl"

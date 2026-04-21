@@ -207,22 +207,19 @@
 
 &ethernet0 {
 	status = "okay";
-	pinctrl-0 = <&ethernet0_rgmii_pins_a>;
-	pinctrl-1 = <&ethernet0_rgmii_sleep_pins_a>;
+	pinctrl-0 = <&ethernet0_rmii_pins_c>;
+	pinctrl-1 = <&ethernet0_rmii_sleep_pins_c>;
 	pinctrl-names = "default", "sleep";
-	phy-mode = "rgmii-id";
-	max-speed = <1000>;
+	phy-mode = "rmii";
+	max-speed = <100>;
 	phy-handle = <&phy0>;
-	nvmem-cells = <&ethernet_mac_address>;
-	nvmem-cell-names = "mac-address";
-
-	mdio {
-		#address-cells = <1>;
-		#size-cells = <0>;
-		compatible = "snps,dwmac-mdio";
-		phy0: ethernet-phy@0 {
-			reg = <0>;
-		};
+	mdio0 {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			compatible = "snps,dwmac-mdio";
+			phy0: ethernet-phy@0 {
+					reg = <0>;
+			};
 	};
 };
 

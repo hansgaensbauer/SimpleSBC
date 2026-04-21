@@ -204,12 +204,20 @@
 
 &ethernet0 {
 	status = "okay";
-	pinctrl-0 = <&ethernet0_rmii_pins_a>;
-	pinctrl-1 = <&ethernet0_rmii_sleep_pins_a>;
+	pinctrl-0 = <&ethernet0_rmii_pins_c>;
+	pinctrl-1 = <&ethernet0_rmii_sleep_pins_c>;
 	pinctrl-names = "default", "sleep";
 	phy-mode = "rmii";
 	max-speed = <100>;
 	phy-handle = <&phy0>;
+	clock-names = "stmmaceth",
+			"mac-clk-tx",
+			"mac-clk-rx",
+			"syscfg-clk";
+	clocks = <&rcc ETHMAC>,
+			<&rcc ETHTX>,
+			<&rcc ETHRX>,
+			<&rcc SYSCFG>;
 	mdio0 {
 			#address-cells = <1>;
 			#size-cells = <0>;
