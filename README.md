@@ -5,7 +5,7 @@ A simple, open source SBC built around the STM32MP1
 
 ## Getting Started
 1. `git clone` this repository
-2. Run `git submodule init --recursive` to get Yocto and layers
+2. Run `git submodule init` and `git submodule update --recursive` to get Yocto and layers
 3. Install dependencies:
    ```
    sudo apt update
