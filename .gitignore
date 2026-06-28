@@ -36,6 +36,7 @@ fp-info-cache
 Hardware/simpleSBC-backups/
 *.kicad_prl
 Hardware/cam/
+Hardware/.history
 
 # Yocto
 *.pyc
