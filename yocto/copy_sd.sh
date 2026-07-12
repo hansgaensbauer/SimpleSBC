@@ -3,7 +3,7 @@
 #!/bin/bash
 set -e
 
-SDCARD="/dev/sdb"
+SDCARD="/dev/sdc"
 IMAGEPATH="build-simplesbc/tmp/deploy/images/simplesbc"
 
 echo "WARNING: This will erase ALL data on $SDCARD!"

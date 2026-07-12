@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/hans/Desktop/SimpleSBC/yocto/build/tmp
+SSTATE_DIR /home/hans/Desktop/SimpleSBC/yocto/build/sstate-cache
+NATIVELSBSTRING ubuntu-22.04

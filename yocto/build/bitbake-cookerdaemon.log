@@ -1,0 +1,53 @@
+3245956 12:53:11.615113 --- Starting bitbake server pid 3245956 at 2026-06-28 12:53:11.615101 ---
+3245956 12:53:11.615488 Started bitbake server pid 3245956
+3245956 12:53:11.615586 Entering server connection loop
+3245956 12:53:11.615596 Lockfile is: /home/hans/Desktop/SimpleSBC/yocto/build/bitbake.lock
+Socket is /home/hans/Desktop/SimpleSBC/yocto/build/bitbake.sock (True)
+3245956 12:53:11.615914 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3245956 12:53:11.616073 Processing Client
+3245956 12:53:11.616086 Connecting Client
+3245956 12:53:11.616204 Running command ['setFeatures', [2, 1]]
+3245956 12:53:11.616219 Sending reply (None, None)
+3245956 12:53:11.616243 Command Completed (socket: True)
+3245956 12:53:11.616549 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/hans/Desktop/SimpleSBC/yocto/build', 'LOGNAME': 'hans', 'HOME': '/home/hans', 'BBPATH': '/home/hans/Desktop/SimpleSBC/yocto/build', 'USER': 'hans', 'PATH': '/home/hans/Desktop/SimpleSBC/yocto/poky/scripts:/home/hans/Desktop/SimpleSBC/yocto/poky/bitbake/bin:/home/hans/.nvm/versions/node/v24.14.1/bin:/home/hans/radioconda/condabin:/home/hans/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hans/.dotnet/tools', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/blackbox:@/tmp/.ICE-unix/3041,unix/blackbox:/tmp/.ICE-unix/3041', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'NVM_INC': '/home/hans/.nvm/versions/node/v24.14.1/include/node', 'XDG_MENU_PREFIX': 'gnome-', 'OE_ADDED_PATHS': '/home/hans/Desktop/SimpleSBC/yocto/poky/scripts:/home/hans/Desktop/SimpleSBC/yocto/poky/bitbake/bin:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CONDA_EXE': '/home/hans/radioconda/bin/conda', '_CE_M': '', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '3074', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ODSGR3', 'USERNAME': 'hans', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/563d9674_1671_4473_841f_83ce5a5c0315', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/hans/.cache/dotnet_bundle_extract', 'NVM_DIR': '/home/hans/.nvm', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/hans/Desktop/SimpleSBC/yocto/poky/bitbake/lib:', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GNOME_TERMINAL_SERVICE': ':1.140', 'CONDA_SHLVL': '0', 'DISPLAY': ':0', 'SHLVL': '1', 'NVM_CD_FLAGS': '', 'QT_IM_MODULE': 'ibus', 'CONDA_PYTHON_EXE': '/home/hans/radioconda/bin/python', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/hans/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDMSESSION': 'ubuntu', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/hans/Desktop/SimpleSBC/yocto/build', 'NVM_BIN': '/home/hans/.nvm/versions/node/v24.14.1/bin', 'OLDPWD': '/home/hans/Desktop/SimpleSBC/yocto', '_': '/home/hans/Desktop/SimpleSBC/yocto/poky/bitbake/bin/bitbake'}, ['/home/hans/Desktop/SimpleSBC/yocto/poky/bitbake/bin/bitbake', 'custom-image']]
+3245956 12:53:11.877046 Base config valid
+3245956 12:53:11.916242 Sending reply (None, None)
+3245956 12:53:11.916452 Command Completed (socket: True)
+3245956 12:53:11.916845 Running command ['getVariable', 'BBINCLUDELOGS']
+3245956 12:53:11.916946 Sending reply ('yes', None)
+3245956 12:53:11.917011 Command Completed (socket: True)
+3245956 12:53:11.917130 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3245956 12:53:11.917162 Sending reply (None, None)
+3245956 12:53:11.917208 Command Completed (socket: True)
+3245956 12:53:11.917317 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3245956 12:53:11.917458 Sending reply ('/home/hans/Desktop/SimpleSBC/yocto/build/tmp/log/cooker/qemux86-64/20260628165311.log', None)
+3245956 12:53:11.917518 Command Completed (socket: True)
+3245956 12:53:11.917616 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3245956 12:53:11.917656 Sending reply (None, None)
+3245956 12:53:11.917700 Command Completed (socket: True)
+3245956 12:53:11.919761 Running command ['getUIHandlerNum']
+3245956 12:53:11.919802 Sending reply (1, None)
+3245956 12:53:11.919866 Command Completed (socket: True)
+3245956 12:53:11.919997 Running command ['setEventMask', 1, 20, {'BitBake.SigGen.HashEquiv': 19, 'BitBake.RunQueue.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3245956 12:53:11.920016 Sending reply (True, None)
+3245956 12:53:11.920060 Command Completed (socket: True)
+3245956 12:53:11.920135 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3245956 12:53:11.920165 Sending reply ('build', None)
+3245956 12:53:11.920207 Command Completed (socket: True)
+3245956 12:53:11.920285 Running command ['setConfig', 'cmd', 'build']
+3245956 12:53:11.920301 Sending reply (None, None)
+3245956 12:53:11.920334 Command Completed (socket: True)
+3245956 12:53:11.920414 Running command ['buildTargets', ['custom-image'], 'build']
+3245956 12:53:11.920467 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7e90f3bd3b80>>
+3245956 12:53:11.920473 Sending reply (True, None)
+3245956 12:53:11.920504 Command Completed (socket: True)
+3245956 12:53:12.017203 Parsing started
+3245956 12:53:12.750235 Parse cache valid
+3245956 12:53:21.914876 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7e90f3bd3b80>> at idleFinish
+3245956 12:53:22.165605 Processing Client
+3245956 12:53:22.165745 Disconnecting Client (socket: True)
+3245956 12:53:22.166192 Parse cache invalidated
+3245956 12:53:22.166219 No timeout, exiting.
+3245956 12:53:22.266373 Exiting (socket: True)
+3245956 12:53:22.275282 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/hans/Desktop/SimpleSBC/yocto/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>

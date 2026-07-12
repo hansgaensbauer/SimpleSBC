@@ -210,20 +210,17 @@
 	phy-mode = "rmii";
 	max-speed = <100>;
 	phy-handle = <&phy0>;
-	clock-names = "stmmaceth",
-			"mac-clk-tx",
-			"mac-clk-rx",
-			"syscfg-clk";
-	clocks = <&rcc ETHMAC>,
-			<&rcc ETHTX>,
-			<&rcc ETHRX>,
-			<&rcc SYSCFG>;
+
 	mdio0 {
 			#address-cells = <1>;
 			#size-cells = <0>;
 			compatible = "snps,dwmac-mdio";
 			phy0: ethernet-phy@0 {
-					reg = <0>;
+				compatible = "ethernet-phy-id0007.c131";
+				reset-gpios = <&gpiob 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+				reset-assert-us = <10000>;
+				reset-deassert-us = <10000>;
+				reg = <0>;
 			};
 	};
 };

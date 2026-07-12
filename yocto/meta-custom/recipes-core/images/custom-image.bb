@@ -1,7 +1,7 @@
 SUMMARY = "My custom Linux image."
 
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
-IMAGE_INSTALL:append = " python3 python3-core python3-crypt python3-io python3-numpy libgpiod libgpiod-tools python3-gpiod ethtool"
+IMAGE_INSTALL:append = " python3 python3-core python3-crypt python3-io python3-numpy libgpiod libgpiod-tools python3-gpiod ethtool devmem2 dtc"
 
 IMAGE_LINGUAS = " "
 
